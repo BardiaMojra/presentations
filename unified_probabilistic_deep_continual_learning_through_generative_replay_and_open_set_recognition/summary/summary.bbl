@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+
+\bibitem{kingma2013auto}
+D.~P. Kingma and M.~Welling, ``Auto-encoding variational bayes,'' {\em arXiv
+  preprint arXiv:1312.6114}, 2013.
+
+\bibitem{hoffman2016elbo}
+M.~D. Hoffman and M.~J. Johnson, ``Elbo surgery: yet another way to carve up
+  the variational evidence lower bound,'' in {\em Workshop in Advances in
+  Approximate Bayesian Inference, NIPS}, vol.~1, 2016.
+
+\bibitem{bendale2014reliable}
+A.~Bendale and T.~Boult, ``Reliable posterior probability estimation for
+  streaming face recognition,'' in {\em Proceedings of the IEEE Conference on
+  Computer Vision and Pattern Recognition Workshops}, pp.~56--63, 2014.
+
+\bibitem{higgins2016beta}
+I.~Higgins, L.~Matthey, A.~Pal, C.~Burgess, X.~Glorot, M.~Botvinick,
+  S.~Mohamed, and A.~Lerchner, ``beta-vae: Learning basic visual concepts with
+  a constrained variational framework,'' 2016.
+
+\end{thebibliography}
