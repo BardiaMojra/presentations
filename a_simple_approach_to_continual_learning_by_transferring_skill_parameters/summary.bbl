@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+
+\bibitem{hausman2018learning}
+K.~Hausman, J.~T. Springenberg, Z.~Wang, N.~Heess, and M.~Riedmiller,
+  ``Learning an embedding space for transferable robot skills,'' in {\em
+  International Conference on Learning Representations}, 2018.
+
+\bibitem{julian2018scaling}
+R.~Julian, E.~Heiden, Z.~He, H.~Zhang, S.~Schaal, J.~Lim, G.~Sukhatme, and
+  K.~Hausman, ``Scaling simulation-to-real transfer by learning composable
+  robot skills,'' in {\em International Symposium on Experimental Robotics},
+  pp.~267--279, Springer, 2018.
+
+\end{thebibliography}
