@@ -65,6 +65,7 @@ similar episodes. Nonetheless, the main issue with this approach is the fact
 that it is still too computationally expensive to learn new skills from scratch or
 to even retrain after transfer learning.\\
 
+\noindent
 The authors introduce a novel and more efficient method for
 continual learning of manipulation tasks by transferring skill parameters. They
 show that representing past experiences only in form of skill policies,
@@ -75,15 +76,11 @@ learned based on \textit{prior skills} or \textit{skill libraries} to enable
 efficient acquisition and transfer of dynamic control policies. Similar to
 \cite{hausman2018learning} and \cite{julian2018scaling}, they train reuseable
 skill libraries in simulation to develop composable skill policies in form
-of latent space parameter.
-
-latent state representation of decomposed
-skills for learning reuseable skill libraries based on decomposition.
-    through  learned skills by transferring skill parameters directly.\\
+of latent space parameter.\\
 
 
 \noindent
-\textbf{Setting}\\
+\textbf{Setting}
 They define continual learning problem as iterated transfer learning for
 multi-task reinforcement learning (MTRL) on a possibly-unbounded discrete space
 of tasks \(\mathcal{T}\).
@@ -107,14 +104,15 @@ T at once or even a representative sample. The robot can only access one task at
 a time. The time between task transitions is referred to as an 'epoch' with
 each having a unique index. Tasks may reapear and when solving a "target task,"
 the robot can only skill policies acquired while solving prior tasks M (the
-'skill library"). Thus, they redefine the MTRL
+"skill library"). Thus, they redefine the MTRL problem as
 \begin{equation}
 \tau = \left(S, A, M_{i}, p_{\tau_{i}} (s,a,s'), r_{\tau_{i}} (s,a,s') \right),
 \end{equation}
 \noindent
-where \(M_i\) represents the set manipulation skills the robot is initialized
+where \(M_i\) represents the set is manipulation skills the robot is initialized
 with and \(i\) is the epoch number.
-
+They primarily use PPO \cite{schulman2017proximal} for the RL algorithm F that
+effectively samples the distribution of value function before training.\\
 
 \noindent
 \textbf{Simple Continual Learning with Skill Transfer}\\
@@ -124,21 +122,86 @@ with and \(i\) is the epoch number.
   \caption{Algorithm 1}
 \end{figure}
 
+\noindent
+\textbf{"Warm-Up" Procedure for Value Function Transfer} In order to tune a
+skill on a task, they need a value function that estimates expected the reward
+of that skill policy on the task \(\tau\). They used a initial gradient batch
+sampling for estimating value function distribution similar to PPO. This allows
+them to tune the value function of any skill on the new task and was necessary
+to perform transfer effectively with PPO.\\
+
+\noindent
+\textbf{Rejecting Bad} Since new skills are build upon prior skills in a
+hierarchial manner it is import to train and retain good transferred skills.
+The authors built-in a mechanism where the learning agent can ternimate a
+bad transfer at any time. It is characterized by a transferred policy \(\pi_{base}\)
+that "falls too far behind" the from-scratch policy.\\
+
+\noindent
+\textbf{Skill-Skill Transfer Cost}
+In order to transfer skills more efficiently, they tansformed the continual
+learners training sequence form \textit{Random Skill Tranfer} to \textit{Skill
+Curriculum}. Furthermore, they developed a method for measuring skill-skill
+transfer cost by counting the number of samples needed to acquire a target Skill,
+starting from a given base skill.\\
+
+\newpage
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.6\textwidth]{/fig03.png}
+  \caption{Predicted Skill-Skill Transfer Cost}
+\end{figure}
+
+\noindent
+\textbf{Predicted Skill-Skill Transfer Cost}
+They define   as the ratio of time steps required to learn a task in MT10
+\cite{meta-world} by skill transfer to learning the same task from scratch, using each
+other possible skill policy as a base skill. Equation (4) and figure (2) show
+skill transfer equation and scores, respectively.\\
+
+\begin{equation}
+A_{base \rightarrow target} = \frac{C_{base \rightarrow target}}{C_{scratch\rightarrow target}}
+\end{equation}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.8\textwidth]{/fig04.png}
+  \caption{Optimal and Pessimal Trees}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{/fig05.png}
+  \caption{DMST-Based Curriculum Transfer Learning Algorithm}
+\end{figure}
+
+\noindent
+\textbf{Curriculum Selection Algorithm}
+They generate a skill-skill transfer cost for each task \(\tau \in \mathcal{T}\), which
+form the weighted adjacency matrix of a densely-connected directed graph with
+skill-skill transfer costs as the directed edge weights. With this problem
+setting,
+they solve for the Directed Minimum Spanning Tree (DMST) to obtain the optimal
+path for sequentially transferring all tasks.
+Thus, they create an optimal transfer learning curriculum for transferring and
+retuning any skill. Figure (3) and (4) depict examples of optimal and pessimal trees
+and DMST-based curriculum transfer learning algorithm, respectively.
+Figure (5)
+shows performance comparison between different skill curriculums for MT10.\\
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{/fig06.png}
+  \caption{DMST-Based Curriculum Transfer Learning Algorithm}
+\end{figure}
 
 
-
-%\newpage
-% Figure 2 depicts latent space variable projections onto $z_1 \times z_2$ phase plane.
-
-% \begin{figure}[h]
-%   \centering
-%   \includegraphics[width=.9\textwidth]{../z_phase.png}
-%   \caption{2-D latent space visualization for continually learned MNIST.}
-% \end{figure}
 
 
 %Sets the bibliography style to UNSRT and import the
 \newpage
+
 \bibliography{ref}
 \bibliographystyle{ieeetr}
 
