@@ -284,5 +284,12 @@ TSWLatexianTemp*
 #*Notes.bib
 .synctex.gz
 *.synctex.gz
-summary.synctex.gz
+*/summary.synctex.gz
+*/summary.log
+*/summary.fls
+*/summary.fbd_latexmk
+*/summary.blg
+*/summary.bbl
+*/summary.aux
+
 
