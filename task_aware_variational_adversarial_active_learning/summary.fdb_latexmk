@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex summary"] 1643764304 "summary.aux" "summary.bbl" "summary" 1643775083
+["bibtex summary"] 1643833653 "summary.aux" "summary.bbl" "summary" 1643833714
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "ref.bib" 1643764303 1332 8ce6714d2163264850f66be557c6a97d ""
-  "summary.aux" 1643759254 869 a456ad1058a9c546727ecb4527d40fda "pdflatex"
+  "ref.bib" 1643815891 1817 e1a6c6c564589ad954898c519da4aa63 ""
+  "summary.aux" 1643833691 1334 2123401e5830e17e2e89f5878b9d8727 "pdflatex"
   (generated)
-  "summary.bbl"
   "summary.blg"
-["pdflatex"] 1643759253 "/home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.tex" "/home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.pdf" "summary" 1643775083
+  "summary.bbl"
+["pdflatex"] 1643833691 "/home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.tex" "/home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.pdf" "summary" 1643833714
   "/etc/texmf/web2c/texmf.cnf" 1624080877 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.aux" 1643759254 869 a456ad1058a9c546727ecb4527d40fda ""
-  "/home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.tex" 1643759251 3950 94c1cda0e1391a971793875ce43421ea ""
+  "/home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.aux" 1643833691 1334 2123401e5830e17e2e89f5878b9d8727 ""
+  "/home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.tex" 1643833714 5305 497aa885eb0bfd1ffad42bb9f4cb33a9 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -130,12 +130,13 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1624080910 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1624080945 8255625 7d5495dd9a8a7fed6f7873b6b8d2a224 ""
   "images//fig01.png" 1643732821 1096698 db522b0893c22097e97765a2d264f8c5 ""
-  "summary.aux" 1643759254 869 a456ad1058a9c546727ecb4527d40fda "pdflatex"
-  "summary.bbl" 1643764304 705 47df517020e5e20179dd56c28484bd88 "bibtex summary"
-  "summary.tex" 1643759251 3950 94c1cda0e1391a971793875ce43421ea ""
+  "images//fig02.png" 1643828828 76870 5a0d371c03cfa55c8e713aca5c0bdbc9 ""
+  "summary.aux" 1643833691 1334 2123401e5830e17e2e89f5878b9d8727 "pdflatex"
+  "summary.bbl" 1643833653 1246 96240d5291c7e1b2ffcb50c136647773 "bibtex summary"
+  "summary.tex" 1643833714 5305 497aa885eb0bfd1ffad42bb9f4cb33a9 ""
   (generated)
-  "summary.aux"
   "summary.pdf"
   "/home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.log"
-  "summary.log"
+  "summary.aux"
   "/home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.pdf"
+  "summary.log"

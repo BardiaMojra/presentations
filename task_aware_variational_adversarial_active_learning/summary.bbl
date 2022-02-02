@@ -15,4 +15,17 @@ S.~Sinha, S.~Ebrahimi, and T.~Darrell, ``Variational adversarial active
   learning,'' in {\em Proceedings of the IEEE/CVF International Conference on
   Computer Vision}, pp.~5972--5981, 2019.
 
+\bibitem{RankCGAN}
+O.~Sener and S.~Savarese, ``Active learning for convolutional neural networks:
+  A core-set approach,'' {\em arXiv preprint arXiv:1708.00489}, 2017.
+
+\bibitem{coreset}
+O.~Sener and S.~Savarese, ``Active learning for convolutional neural networks:
+  A core-set approach,'' {\em arXiv preprint arXiv:1708.00489}, 2017.
+
+\bibitem{MonteCarloDropout}
+Y.~Gal, R.~Islam, and Z.~Ghahramani, ``Deep bayesian active learning with image
+  data,'' in {\em International Conference on Machine Learning},
+  pp.~1183--1192, PMLR, 2017.
+
 \end{thebibliography}

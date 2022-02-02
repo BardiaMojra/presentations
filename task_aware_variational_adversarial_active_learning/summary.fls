@@ -190,9 +190,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm
-INPUT /home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/images//fig01.png
-INPUT /home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/images//fig01.png
-INPUT /home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/images//fig01.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
@@ -204,6 +201,15 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/images//fig01.png
+INPUT /home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/images//fig01.png
+INPUT /home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/images//fig01.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT /home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/images//fig02.png
+INPUT /home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/images//fig02.png
+INPUT /home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/images//fig02.png
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.bbl
 INPUT /home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.bbl
 INPUT /home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.aux

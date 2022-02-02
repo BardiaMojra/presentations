@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.19)  1 FEB 2022 17:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.19)  2 FEB 2022 14:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -478,47 +478,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--48
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--67
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images//fig01.png, id=8, 3010.24625pt x 1038.88126pt>
-File: images//fig01.png Graphic file (type png)
-<use images//fig01.png>
-Package pdftex.def Info: images//fig01.png  used on input line 99.
-(pdftex.def)             Requested size: 469.75502pt x 162.11871pt.
+Underfull \hbox (badness 10000) in paragraph at lines 68--75
+
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 76--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--103
+
+ []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
- [2 </home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/images//fig01.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<images//fig01.png, id=31, 3010.24625pt x 1038.88126pt>
+File: images//fig01.png Graphic file (type png)
+<use images//fig01.png>
+Package pdftex.def Info: images//fig01.png  used on input line 116.
+(pdftex.def)             Requested size: 469.75502pt x 162.11871pt.
+<images//fig02.png, id=33, 912.40875pt x 504.88625pt>
+File: images//fig02.png Graphic file (type png)
+<use images//fig02.png>
+Package pdftex.def Info: images//fig02.png  used on input line 122.
+(pdftex.def)             Requested size: 375.80544pt x 207.95227pt.
+ [2 </home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/images//fig01.png> </home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/images//fig02.png>] (/home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
  (/home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 112.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 135.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 135.
  ) 
 Here is how much of TeX's memory you used:
- 10110 strings out of 481239
- 150219 string characters out of 5920377
- 423781 words of memory out of 5000000
- 25159 multiletter control sequences out of 15000+600000
- 547817 words of font info for 61 fonts, out of 8000000 for 9000
+ 10128 strings out of 481239
+ 150489 string characters out of 5920377
+ 424781 words of memory out of 5000000
+ 25170 multiletter control sequences out of 15000+600000
+ 549402 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,42p,355b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,6n,42p,355b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.pdf (2 pages, 977199 bytes).
+Output written on /home/smerx/git/presentations/task_aware_variational_adversarial_active_learning/summary.pdf (3 pages, 1035627 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
