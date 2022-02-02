@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{SRAAL}
+B.~Zhang, L.~Li, S.~Yang, S.~Wang, Z.-J. Zha, and Q.~Huang, ``State-relabeling
+  adversarial active learning,'' in {\em Proceedings of the IEEE/CVF Conference
+  on Computer Vision and Pattern Recognition}, pp.~8756--8765, 2020.
+
+\bibitem{LearningLoss}
+D.~Yoo and I.~S. Kweon, ``Learning loss for active learning,'' in {\em
+  Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition}, pp.~93--102, 2019.
+
+\bibitem{VAAL}
+S.~Sinha, S.~Ebrahimi, and T.~Darrell, ``Variational adversarial active
+  learning,'' in {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pp.~5972--5981, 2019.
+
+\end{thebibliography}

@@ -1,0 +1,112 @@
+
+% --------------- 12 POINT FONT -------------------------------
+\documentclass[12pt]{article}
+% --------------- 10 POINT FONT FOR CAPTIONS ------------------
+\usepackage[font=footnotesize]{caption}
+% --------------- NY TIMES FONT -------------------------------
+\usepackage{times}
+% --------------- 1 INCH MARGINS ------------------------------
+\usepackage[margin=1in]{geometry}
+% --------------- LINE SPACING --------------------------------
+\usepackage{setspace}
+\singlespacing
+%\doublespacing
+% --------------- SMALL SECTION TITLES ------------------------
+\usepackage[tiny,compact]{titlesec}
+% --------------- PACKAGES ------------------------------------
+\usepackage{bookmark}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{bm}
+\usepackage{color}
+\usepackage{comment}
+\usepackage{float}
+\usepackage{graphicx}
+%\usepackage[hidelinks]{hyperref}
+\usepackage{makecell}
+\usepackage[caption=false,font=footnotesize,subrefformat=parens,labelformat=parens]{subfig}
+\usepackage{wrapfig}
+\usepackage{url}
+\usepackage[table]{xcolor}
+\graphicspath{{images/}}
+\begin{document}
+% --------------- TITLE AND NAME ------------------------------
+\begin{center}
+\textbf{Summary}\\
+\end{center}
+
+\noindent
+Bardia Mojra\\
+\today\\
+Seminar on Active Learning\\
+Robotic Vision Lab\\
+% --------------- CONTENT -------------------------------------
+\begin{center}
+{\large Task-Aware Variational Adversarial Active Learning\\}
+\end{center}
+\begin{center}
+  {\small Kwanyoung Kim, Dongwon Park, Kwang In Kim, Se Young Chun}\\
+\end{center}
+
+\noindent
+\textbf{Introduction}
+Deep learning requires large amounts of data to train properly and the high
+cost of
+labeling entire datasets have created an urgent need for more efficient
+learning algorithms. \textit{Active learning (AL) aims to improve learning by
+querying the most informative samples to be annotated unlabeled pool}.
+Existing AL methods can be categorized into two main groups,
+\textit{task-agnostic} and \textit{task-aware}.
+Task-agnostic (or distribution-based) methods rely on distribution of labeled
+or input data, \(P(x)\) to identify \textit{influential points}. Such techniques
+query samples in high-density regions and are good for learning distribution of
+standalone clusters but they do not make any determination on input-output
+depency. This becomes particularly important in classification
+tasks where there is always the possibility of partial distribution overlap
+among latent space variables from different classes.
+
+Task-aware methods address this limitation by modeling such dependence,
+e.g. via estimating the conditional distribution \(P(y|x)\). Such methods
+identify \textit{difficult} data points by querying samples from high uncertainty
+regions, e.g. overlapping or boundary regions.
+Task-agnostic methods do not exploit structures from tasks and task-aware
+methods do not seem to well-utilize overall data distribution. Recently,
+SRAAL introduced a method that combines task-aware and
+task-agnostic approached with a uncertainty indicator and with a unified
+representation for both labeled and unlabeled data \cite{SRAAL}.
+Even though SRAAL achieved state-of-the-art performance, it did not use
+information directly about the task \cite{LearningLoss} and its learner
+seems to be limited to only VAE-type networks with a latent space for its
+unified representation.
+
+In this paper, the authors propose a novel method which builds upon
+variational adversarial active learning \cite{VAAL} and utilizes
+\cite{LearningLoss} for exploit the structure \(P(y|x)\) of the problem at hand.
+In this approach by combining it.
+
+
+
+
+
+\noindent
+\textbf{The figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{/fig01.png}
+  % \caption{}
+\end{figure}
+
+
+
+
+%Sets the bibliography style to UNSRT and import the
+\newpage
+
+\bibliography{ref}
+\bibliographystyle{ieeetr}
+
+\end{document}
