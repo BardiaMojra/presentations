@@ -67,9 +67,9 @@ state-of-the-art performance on multiple classification benchmarks.\\
 
 Task-agnostic (or distribution-based) methods rely on distribution of labeled
 or input data, \(P(x)\) to identify \textit{influential data points}. Such techniques
-query samples in high-density regions and are good for learning distribution of
+query samples in high-density regions and are good for learning the distribution of
 standalone clusters but they do not make any determination on input-output
-depency. This becomes particularly important in classification
+dependency. This becomes particularly important in classification
 tasks where there is always the possibility of partial distribution overlap
 among latent space variables from different classes.\\
 
@@ -81,7 +81,7 @@ regions, e.g. overlapping or boundary regions.
 Task-agnostic methods do not exploit structures from tasks and task-aware
 methods do not seem to well-utilize overall data distribution. Recently,
 SRAAL introduced a method that combines task-aware and
-task-agnostic approached with a uncertainty indicator and with a unified
+task-agnostic approached with an uncertainty indicator and with a unified
 representation for both labeled and unlabeled data \cite{SRAAL}.
 Even though SRAAL achieved state-of-the-art performance, it did not use
 information directly about the task \cite{LearningLoss} and its learner
